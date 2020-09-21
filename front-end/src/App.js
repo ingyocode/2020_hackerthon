@@ -1,10 +1,16 @@
 import React from "react";
+import {Typography} from '@material-ui/core'
 
 class App extends React.Component {
   render() {
-    return <div>testing</div>;
+    return (
+      <div>
+        <Typography>
+          Testing
+        </Typography>
+      </div>
+    )
   }
 }
 
 export default App
- 
