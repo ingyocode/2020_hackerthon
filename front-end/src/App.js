@@ -1,10 +1,13 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
 
-class App extends React.Component {
-  render() {
-    return <div>testing</div>;
-  }
+function App() {
+  return (
+    <Button variant="contained" color="primary">
+      Hello World
+    </Button>
+  )
 }
 
-export default App
- 
+ReactDOM.render(<App />, document.querySelector('#app'));
