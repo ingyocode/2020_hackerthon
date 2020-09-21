@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 
+<<<<<<< Updated upstream
 class App extends React.Component {
   render() {
     return (
