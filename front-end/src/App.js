@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Typography } from "@material-ui/core";
 
 function App() {
   return (
@@ -16,11 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          명준앙 React
+          asdf
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App
+ 
