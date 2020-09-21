@@ -6,4 +6,8 @@ api.get('/', ctx => {
     ctx.body = 'routing testing'
 })
 
+api.get('/test', ctx => {
+    ctx.body = 'testing'
+})
+
 export default api
