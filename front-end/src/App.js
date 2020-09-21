@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing React
+          박경훈 React
         </a>
       </header>
     </div>
