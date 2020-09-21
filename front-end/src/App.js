@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          박경훈 React
+          명준앙 React
         </a>
       </header>
     </div>
