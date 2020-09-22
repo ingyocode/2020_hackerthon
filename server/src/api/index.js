@@ -4,10 +4,22 @@ import axios from "axios";
 const api = new Router();
 
 api.get("/", async (ctx) => {
+  const info = {
+    name: [],
+    sumry: [],
+    category: [],
+  };
   const data = await axios.get(
-    `http://211.237.50.150:7080/openapi/${process.env.serviceKey}/json/Grid/1/10`
+    `http://openapi.foodsafetykorea.go.kr/api/${process.env.serviceKey}/COOKRCP01/json/1/1`
   );
-  console.log(data.data.Grid_20150827000000000227_1);
+
+  const items = data.data.COOKRCP01.row
+  console.log(items)
+
+
+  //console.log(data.data.COOKRCP01)
+ 
+ // console.log(info);
 });
 
 export default api;

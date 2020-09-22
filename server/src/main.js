@@ -20,7 +20,6 @@ app.use(function(ctx, next) {
     // the parsed body will store in this.request.body
     // if nothing was parsed, body will be undefined
     ctx.body = ctx.request.body
-    console.log(next())
     return next()
 })
 
